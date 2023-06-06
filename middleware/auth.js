@@ -5,6 +5,7 @@ function authM (req,res,next) {
     console.log("adminauth");
     next();
 }
+ 
 
 function auth(req,res,next){
     const token = req.header('x-auth-token');
