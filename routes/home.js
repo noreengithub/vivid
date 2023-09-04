@@ -7,7 +7,7 @@ router.set('views','./views');
 
 router.get("/",(req,res) =>{
     
-    return  res.render( 'index',{'title':'My Express Project','message':'Hello'});
+    return  res.render( 'index',{'title':'My Express Project','message':'Hello world'});
 });
 
 module.exports = router;
