@@ -50,9 +50,9 @@ console.log("hello world");
 //app.use( '/',home);
 //app.use(error);
 
-const port =  8000;
+const port =  3000;
 console.log(port);
 console.log("console log user here! we will test all the data here!..");
 
-app.listen(8000,()=>{console.log(`listening ${port} port`)})
+app.listen(3000,()=>{console.log(`listening ${port} port`)})
 
