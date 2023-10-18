@@ -46,7 +46,7 @@ var app = express();
 // app.use( "/api/users",users);
 // app.use( "/api/auth",auth);
 
-console.log("hello world);
+console.log("hello world");
 //app.use( '/',home);
 //app.use(error);
 
