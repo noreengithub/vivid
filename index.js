@@ -47,7 +47,7 @@ var app = express();
 // app.use( "/api/auth",auth);
 
 console.log("hello world");
-//app.use( '/',home);
+app.use( '/',home);
 //app.use(error);
 
 const port =  3000;
